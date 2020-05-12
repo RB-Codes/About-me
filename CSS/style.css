@@ -1,0 +1,12 @@
+h1 {
+    color: blueviolet;
+}
+
+.grid-container {
+
+grid-gap: 50pt 100pt;
+padding-top: 5;
+padding-right: 5;
+padding-left: 5;
+padding-bottom: 5;
+}
