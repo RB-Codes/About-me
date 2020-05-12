@@ -16,5 +16,11 @@ alert('4.Horse riding')
 
 var finalguess = prompt('Your guess is?')
 
-if (finalguess === '3'); {
-        alert('Congrats!') }
+
+while (finalguess === '3'); {
+        prompt('Your guess is?')
+        console.log(finalguess)
+}
+
+// 269 months
+

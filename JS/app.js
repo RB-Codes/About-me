@@ -18,6 +18,10 @@ switch (joinus.toLocaleLowerCase()) {
     default:
         alert('I have to know if you are sure');
         console.log('You are not answering');
+        
+        while (joinus === null); {
+            prompt (joinus)
+        }
 
         
 
