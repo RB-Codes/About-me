@@ -2,6 +2,10 @@ h1 {
     color: blueviolet;
 }
 
+.grid-item {
+    border-radius: 50pt
+}
+
 .grid-container {
 
 grid-gap: 50pt 100pt;
