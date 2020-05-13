@@ -45,10 +45,8 @@ while (finalguess === '3'); {
         prompt('Your guess is?')
         console.log(finalguess)
 } 
-
-
-var ageYear = 22;
-
+ var ageYear = 22;
+   
 var answer = prompt('tell me how old am i ?');
 for (var i = 1; i < 4; i++) {
         if (answer > ageYear) {
@@ -86,7 +84,6 @@ while (i < 6) {
         }
         i++;
 }
-
 
 
 
