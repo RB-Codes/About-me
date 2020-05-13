@@ -20,7 +20,7 @@ var finalguess = prompt('Your guess is?')
 while (finalguess === '3'); {
         prompt('Your guess is?')
         console.log(finalguess)
-}
+} 
 
 // 269 months
 
