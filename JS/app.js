@@ -37,26 +37,28 @@ function q1() {
         console.log('we are doing it baby')
         switch (uanswer.toLocaleUpperCase()) {
                 case 'OK':
-                        alert('you are amazing')
-                        console.log('he said ok')
+                        alert('you are amazing');
+                        console.log('he said ok');
                         break;
         }
-        alert('1.Rope skipping')
-        alert('2.Play soccer')
-        alert('3.Drifting')
-        alert('4.Horse riding')
+        alert('1.Rope skipping');
+        alert('2.Play soccer');
+        alert('3.Drifting');
+        alert('4.Horse riding');
 
-        var finalguess = prompt('Your guess is?')
+        var finalguess = prompt('Your guess is?');
 
 
-        while (finalguess === '3'); {
-                prompt('Your guess is?')
-                console.log(finalguess)
+        while (finalguess !== '3') {
+                prompt('Your guess is?');
+                console.log(finalguess);
+
         }
 }
 
 
 function q2() {
+
         var ageYear = 22;
 
         var answer = prompt('tell me how old am i ?');
@@ -77,14 +79,15 @@ function q2() {
 
 function q3() {
 
-        var favSnac = prompt('What is my favorite chocolate snack?');
-        var snacMenu = ['galaxy', 'snickers', 'twix', 'mars', 'reeses', 'kinder'];
+var snacMenu = ['galaxy', 'snickers', 'twix', 'mars', 'reeses', 'kinder'];
+
+
         var i = 0;
         var answer = false;
 
         while (i < 6) {
 
-                favSnac = prompt('What is my favorite chocolate snack?');
+                var favSnac = prompt('What is my favorite chocolate snack?');
 
                 for (var j = 0; j < snacMenu.length; j++) {
                         if (favSnac == snacMenu[j]) {
@@ -98,7 +101,14 @@ function q3() {
                         break;
                 }
                 i++;
+
+                
         }
 
-
+        alert('These are my favorites');
+        console.log (snacMenu)
+        alert(snacMenu);
 }
+
+
+
